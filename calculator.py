@@ -62,6 +62,3 @@ class ElectricCar(Car):
 class Motorcycle(Car):
     pass
 
-
-class Bicycle:
-    pass
