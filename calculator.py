@@ -37,7 +37,7 @@ class Car:
         self.service_cost = service_cost
         self.insurance_cost = insurance_cost
 
-    def static_year_cost(self):
+    def static_year_cost(self) -> float:
         return self.service_cost + self.insurance_cost
 
     def dynamic_year_cost(self, mileage: int):
