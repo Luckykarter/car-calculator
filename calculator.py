@@ -40,7 +40,7 @@ class Car:
     def static_year_cost(self) -> float:
         return self.service_cost + self.insurance_cost
 
-    def dynamic_year_cost(self, mileage: int):
+    def dynamic_year_cost(self, mileage: int) -> float:
         return self.fuel_economy * mileage / 100 * get_gas_price()
 
     def year_cost(self, mileage: int):
