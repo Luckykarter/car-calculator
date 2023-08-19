@@ -9,11 +9,11 @@ if __name__ == '__main__':
     )
 
     calc.add_car(
-        calculator.Car("Range Rover", 650000, 3,
+        calculator.Car("Range Rover Velar", 650000, 3,
                        service_cost=3000, insurance_cost=7000),
     )
     calc.add_car(
-        calculator.Car("Audi", 500000, 3,
+        calculator.Car("Audi A3", 500000, 3,
                        service_cost=3000, insurance_cost=7000),
     )
     calc.print_cars()
