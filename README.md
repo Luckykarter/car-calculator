@@ -1,4 +1,4 @@
 README.md
 
 
-This is project for git course on wexler.io test
+This is the project for git course on wexler.io
